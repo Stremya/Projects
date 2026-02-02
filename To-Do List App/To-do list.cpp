@@ -6,16 +6,12 @@
 #include <ctime>
 #include <vector>
                 
-// Structure
-#include "Case.h"
-// Basic functions for working with tasks
-#include "addCase.h"
-// all Menu
-#include "Menu.h"
-// Work with file
-#include "Save.h"
-// Functions for search
-#include "Search.h"
+
+#include "Case.h" // Structure
+#include "addCase.h" // Basic functions for working with tasks
+#include "Menu.h" // all Menu
+#include "Save.h" // Work with file
+#include "Search.h" // Functions for search
 
 using namespace std;
 using namespace std::chrono;
@@ -26,4 +22,5 @@ int main() {
 	menu(task);
 	saveFile(task);
 	return 0;
+
 }
